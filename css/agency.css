@@ -13,10 +13,22 @@ body {
   font-family: "Comfortaa", sans-serif; 
 
 }
+.text-muted2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Comfortaa", sans-serif; 
+
+}
 .text-primary {
   color: #018c5e;
 }
-p {
+
+}
+.text-suscribete {
+  color: #aaaaaa;
+}
+
+{
   font-size: 14px;
   line-height: 1.75;
 }
@@ -745,6 +757,7 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #018c5e;
+}
 
 /*!
  * Estilos propios
@@ -756,9 +769,3 @@ body {
   margin: 0 3% 22px 0 !important;
 }
 
-}
-suscribete{
-  font-family: "Comfortaa", sans-serif;
-  font-weight: 700;
-  color: #ffffff
-}
