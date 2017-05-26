@@ -162,7 +162,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: #898989;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -179,8 +179,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #018c55;
+  border-color: #018c55;
   font-family: "Comfortaa", sans-serif;
   text-transform: uppercase;
   color: white;
@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #029a68;
 }
 .navbar-custom .nav li a {
   font-family: "Comfortaa", sans-serif;
