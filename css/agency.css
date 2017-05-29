@@ -230,6 +230,7 @@ fieldset[disabled] .btn-xl.active {
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
+
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
@@ -261,6 +262,7 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
+  color: #383838  ;
 }
 header .intro-text .intro-heading {
   font-family: "Comfortaa", sans-serif;
@@ -767,5 +769,12 @@ body {
 #mc_embed_signup input.email{
   height: 41px !important;
   margin: 0 3% 22px 0 !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+ header .intro-text {
+   padding-top: 70px;
+   padding-bottom: 50px;
 }
 }
