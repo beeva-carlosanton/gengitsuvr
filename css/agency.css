@@ -19,6 +19,7 @@ body {
   font-family: "Comfortaa", sans-serif; 
 
 }
+
 .text-primary {
   color: #018c5e;
 }
@@ -778,3 +779,12 @@ body {
    padding-bottom: 50px;
 }
 }
+
+.text_sub_suscripcion { 
+  color: #777777;
+  font-family: "Comfortaa", sans-serif; 
+  font-size: 12px;
+}
+
+
+
