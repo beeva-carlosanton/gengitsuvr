@@ -15,21 +15,7 @@
 </script>
     <!-- End of Google Analytics Content Experiment code -->
 
-<!-- Detector de idioma -->
 
-        <script>var lang = navigator.browserLanguage || navigator.language;
-        console.log(lang)
-            if (lang === "en") {
-                document.location.href = '/en';
-            }
-        </script>
-
-<!-- Fin Detector de idioma -->
-
-    <!-- Favicon -->
-<link rel="shortcut icon" href="img/favicon.ico" type="img/x-icon">
-<link rel="icon" href="img/favicon.ico" type="img/x-icon">
-<!-- End of Favicon -->
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,7 +24,7 @@
     <meta keyword="realidad virtual, vr, vr arquitectura, vr arquitectos, vr arquitectura, vr arquitectos, realidad virtual arquitectura, aplicaciones realidad virtual arquitectura, realidad virtual para arquitectura, programas de realidad virtual en arquitectura, realidad virtual reformas"
     <meta name="author" content="GenjitsuVR">
 
-    <title>GenjitsuVR</title>
+    <title>Genjitsuvr</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -48,9 +34,7 @@
     <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
     
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/agency.css">
+    <link href="css/agency.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -104,9 +88,10 @@
         <div class="container">
             <div class="intro-text">
             	  <div class="intro-lead-in"><img src="img/logo_color.png" width="229" height="228" alt="GenjitsuVR logo"/></div>
-                <div class="intro-lead-in">Ofrecemos a los arquitectos una solución de REALIDAD VIRTUAL que facilitará la comunicación con sus clientes.</div>
+                <div class="intro-lead-in">Ofrecemos a los arquitectos una herramienta de REALIDAD VIRTUAL que facilitará la comunicación con sus clientes.</div>
                 <!-- <a href="#services" class="page-scroll btn btn-xl">ÚNETE A LA ARQUIREVOLUCIÓN</a> -->
-                <a onclick="ga('send', 'event', 'services', 'click');" class="btn btn-xl popup-youtube" href="https://www.youtube.com/watch?v=LP6SAFAU62Q"><i class="fa fa-play-circle-o fa-3x"></i><br>¿Quiéres saber más?</a> 
+
+                <a onclick="ga('send', 'event', 'services', 'click');" class="page-scroll btn btn-xl" href="#services" data-toggle="modal" data-target="#formPricingCur">ÚNETE A LA ARQUIREVOLUCIÓN</a>
         </div>
     </header>
 
@@ -126,7 +111,7 @@
                         <i class="fa fa-users fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">COLABORATIVO</h4>
-                    <p class="text-muted">Comparte junto a tu cliente la labor de mover paredes, ampliar puertas, redibujar habitaciones y mucho más.... todo ello sin perder el contacto.</p>
+                    <p class="text-muted">Comparte junto a tu cliente la labor de mover paredes, ampliar puertas, redidujar habitaciones y mucho más.... todo ello sin perder el contacto.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -142,12 +127,13 @@
                         <i class="fa fa-sun-o fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">VE COMO INCIDE LA LUZ</h4>
-                    <p class="text-muted">Ya no te tienes que preocupar de cómo afectará la luz en las diferentes horas del día. La herramienta simulará la luz de cualquier hora.</p>
+                    <p class="text-muted">Ya no te tienes que preocupar de como afectará la luz en las diferentes horas del día. La herramienta simulará la luz de cualquier hora.</p>
                 </div>
             </div>
         </div>
     </section>
 
+   
 
     <!-- About Section  
     <section id="about">
@@ -321,16 +307,14 @@ Cualquier software relacionado con VR será un Plus.</p>
                 </style>
                 <div id="mc_embed_signup">
                 <form action="//twitter.us12.list-manage.com/subscribe/post?u=398da3a9f4d88664639152863&amp;id=9f09455771" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
+                    <div id="mc_embed_signup_scroll" class="text-suscribete">
                     <!-- <label for="mce-EMAIL">Suscríbase a nuestra lista de correo</label> -->
                     <p class="text-muted2">Suscríbete a nuestra lista de correo para recibir novedades:</p>
-                    <p class="text_sub_suscripcion">(* Solo novedades puntuales con avances importantes, !No te vamos a bombardear! :D)</p>
                     <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_398da3a9f4d88664639152863_9f09455771" tabindex="-1" value=""><br>
                     </div>
-                    <div class="clear"><input type="submit" value="Suscríbete" name="subscribe" id="mc-embedded-subscribe" class="btn btn-xl">
-                    </div>
+                    <div class="clear"><input type="submit" value="Suscríbete" name="subscribe" id="mc-embedded-subscribe" class="btn btn-xl"></div>
                     </div>
                     <div>
                         <!-- <form>
@@ -378,59 +362,13 @@ Cualquier software relacionado con VR será un Plus.</p>
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-
-
-
-
-
-    <!-- javscript js -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.backstretch.min.js"></script>
-
-    <script src="js/isotope.js"></script>
-    <script src="js/imagesloaded.min.js"></script>
-    <script src="js/nivo-lightbox.min.js"></script>
-
-    <script src="js/jquery.flexslider-min.js"></script>
-
-    <script src="js/jquery.parallax.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <script src="js/custom.js"></script>
-
-
-
-
-
-
-
-
-
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
@@ -441,7 +379,7 @@ Cualquier software relacionado con VR será un Plus.</p>
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
-<div id="cookieinfo" style="position: fixed; left: 0px; right: 0px; height: auto; min-height: 21px; z-index: 255; background: rgba(134, 134, 134, 0.8); color: rgb(51, 51, 51); line-height: 21px; padding: 8px 18px; font-family: verdana, arial, sans-serif; font-size: 14px; text-align: center; bottom: 0px; opacity: 1;">
+<div id="cookieinfo" style="position: fixed; left: 0px; right: 0px; height: auto; min-height: 21px; z-index: 255; background: rgb(134, 134, 134); color: rgb(51, 51, 51); line-height: 21px; padding: 8px 18px; font-family: verdana, arial, sans-serif; font-size: 14px; text-align: center; bottom: 0px; opacity: 1;">
             <div class="cookieinfo-close" style="float: right; display: block; padding: 5px 8px; min-width: 100px; margin-left: 5px; border-radius: 5px; cursor: pointer; color: rgb(0, 0, 0); background: rgb(2, 154, 104); text-align: center;" onclick="document.getElementById('cookieinfo').style.display = 'none'">✖</div>
             <span style="display:block;padding:5px 0 5px 0;" >
                 Utilizamos cookies para mejorar su experiencia. Al continuar visitando este sitio usted aceptas nuestro uso de cookies.  
